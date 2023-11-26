@@ -1,0 +1,16 @@
+   44  git add .
+   45  git commit -m "third commit"
+   46  git branch milkshake-flavours
+   47  git branch
+   48  git checkout milkshake-flavours
+   49  nano milkshakes.md
+   50  git branch history
+   51  git checkout historygit branch
+   52  git branch
+   53  git checkout history
+   54  git branch
+   55  git checkout milkshake-flavours
+   56  git add .
+   57  git commit -m "added initial flavours"
+   58  git checkout history
+   59  clear
