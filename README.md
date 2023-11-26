@@ -1,2 +1,2 @@
 # git-basic-execrises
-some randome readme text
+some randome updated readme text
