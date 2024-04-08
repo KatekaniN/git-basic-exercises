@@ -1,0 +1,167 @@
+    1  git clone 
+    2  pwd
+    3  ls
+    4  cd Documents/
+    5  mkdir basic
+    6  git init
+    7  ls
+    8  ls -a
+    9  git rm .git/
+   10  git rmdir .git/
+   11  rm .git/
+   12  rm --help
+   13  ls -a
+   14  rm -d .git/
+   15  rm -f .git/
+   16  rmdir .git/
+   17  rmdir -r .git/
+   18  rm -r .git/
+   19  cd basic/
+   20  git init
+   21  git remote add git@github.com:KatekaniN/git-basic-exercises.git
+   22  git remote add origin git@github.com:KatekaniN/git-basic-exercises.git
+   23  git pull
+   24  git branch -M main
+   25  git pull -u main
+   26  git pull
+   27  ls
+   28  ls -a
+   29  git -u origin main
+   30  git push -u origin main
+   31  ls
+   32  git remote
+   33  git pull
+   34  git remote add git@github.com:KatekaniN/git-basic-exercises.git
+   35  git remote add origin git@github.com:KatekaniN/git-basic-exercises.git
+   36  ls
+   37  ls
+   38  pwd
+   39  cd Documents/
+   40  ls
+   41  cd basic/
+   42  git remote
+   43  git pull
+   44  git remote add origin https://github.com/KatekaniN/git-basic-exercises.git
+   45  rm -r .git/
+   46  ls
+   47  git init
+   48  git remote add origin https://github.com/KatekaniN/git-basic-exercises.git
+   49  git branch -M main
+   50  git pull
+   51  ls
+   52  ls -a
+   53  ls
+   54  git pull .
+   55  ls -a
+   56  git pull .
+   57  git clone
+   58  git clone https://github.com/KatekaniN/git-basic-exercises.git
+   59  ls
+   60  git branch
+   61  git branch -a
+   62  git checkout history
+   63  git checkout main
+   64  git merge history
+   65  git status
+   66  ls
+   67  git status
+   68  ls
+   69  git push 
+   70  git add .
+   71  ls
+   72  cd git-basic-exercises/
+   73  ls
+   74  git branch 
+   75  git checkout history
+   76  ls
+   77  git checkout main
+   78  git merge history
+   79  ls
+   80  git add .
+   81  git push
+   82  git pull
+   83  git add .
+   84  git push
+   85  cd ..
+   86  ls
+   87  cd ..
+   88  ls
+   89  ls
+   90  mkdir git-basic-exercises
+   91  cd git-basic-exercises
+   92  ls
+   93  git init
+   94  ls
+   95  echo "# git-basic-exercises" >> README.md
+   96  git add README.md
+   97  ls
+   98  clear
+   99  git remote add origin https://github.com/KatekaniN/git-basic-exercises.git
+  100  git status
+  101  git branch -M main
+  102  ls
+  103  ls
+  104  git status
+  105  ls -a
+  106  git add .
+  107  git commit -m "initial commit"
+  108  git push
+  109  git push --set-upstream origin main
+  110  nano README.md
+  111  git commit
+  112  git commit -m
+  113  nano README.md
+  114  cat README.md
+  115  git status
+  116  git add .
+  117  git commit -m "Second Commit"
+  118  git push
+  119  nano README.md
+  120  git add .
+  121  git commit -m "Third Commit"
+  122  git push
+  123  git branch milkshake-flavours
+  124  git branch
+  125  git checkout milkshake-flavours
+  126  nano milkshakes.md
+  127  git status
+  128  git add .
+  129  git commit -m ""added initial flavours"
+
+
+nd
+"
+  130  git commit -m "added initial flavours"
+  131  git push
+  132  git remote
+  133  git checkout main
+  134  git push -u origin main
+  135  git add .
+  136  git status
+  137  git push
+  138  git checkout milkshake-flavours 
+  139  git add .
+  140  git commit -m "milkshake branch"
+  141  git checkout main
+  142  git add .
+  143  git commit -m "fourth commit"
+  144  git branch -m milkshake-flavours
+  145  git push -u branch milkshake-flavours
+  146  git checkout milkshake-flavours
+  147  ls
+  148  nano milkshake-flavours
+  149  ls
+  150  git add .
+  151  git status
+  152  git log
+  153  git push
+  154  git push --set-upstream origin milkshake-flavours
+  155  git log
+  156  git checkout main
+  157   git push --set-upstream origin milkshake-flavours
+  158  ls
+  159  git branch history
+  160  git checkout history
+  161  git log
+  162  git branch
+  163  history > history.txt
